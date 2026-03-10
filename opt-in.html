@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SMS Opt-In | Spark Property Management LLC</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
+    .form-group { margin: 16px 0; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input[type="text"], input[type="tel"] { width: 100%; padding: 8px; font-size: 16px; border: 1px solid #ccc; border-radius: 4px; }
+    .consent-box { background: #f9f9f9; border-left: 5px solid #ccc; padding: 15px; margin: 20px 0; }
+    .checkbox-row { display: flex; align-items: flex-start; gap: 10px; margin-top: 12px; }
+    .checkbox-row input { margin-top: 4px; }
+    button { background: #333; color: white; padding: 10px 24px; border: none; border-radius: 4px; font-size: 16px; cursor: pointer; margin-top: 16px; }
+  </style>
+</head>
+<body>
+  <h1>SMS Consent & Opt-In</h1>
+  <p>Spark Property Management LLC sends work-related SMS notifications to contracted service providers and internal staff, including cleaning schedules, schedule updates, access instructions, cancellations, and urgent property alerts.</p>
+
+  <h2>Contractor / Staff Onboarding Form</h2>
+  <p>By submitting this form, you agree to receive SMS messages from Spark Property Management LLC. Complete your information below to confirm your opt-in.</p>
+
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Jane Smith">
+  </div>
+  <div class="form-group">
+    <label for="phone">Mobile Phone Number</label>
+    <input type="tel" id="phone" placeholder="+1 (720) 555-0100">
+  </div>
+
+  <div class="consent-box">
+    <strong>SMS Consent Disclosure</strong>
+    <div class="checkbox-row">
+      <input type="checkbox" id="consent">
+      <label for="consent">By providing my mobile number and checking this box, I agree to receive work-related SMS from Spark Property Management LLC regarding cleaning schedules, access instructions, and urgent property updates. Message frequency varies. Message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help.</label>
+    </div>
+  </div>
+
+  <p>For our full privacy policy, visit <a href="/privacy-policy/">Privacy Policy</a>. To opt out at any time, reply <strong>STOP</strong> to any message.</p>
+
+  <button type="button">Submit</button>
+
+  <hr style="margin-top: 40px;">
+  <p style="font-size: 13px; color: #888;">Spark Property Management LLC · Colorado · For questions contact us directly.</p>
+</body>
+</html>
